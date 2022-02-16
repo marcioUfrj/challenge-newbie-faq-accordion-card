@@ -169,6 +169,10 @@ body {
 /***** QUESTION ANSWER */
 .question-answer {
   color: var(--neutral-dark-grayish-blue);
+  display: none;
+}
+.question-answer.answer-visible {
+  display: block;
 }
 
 @media screen and (max-width: 440px) {
